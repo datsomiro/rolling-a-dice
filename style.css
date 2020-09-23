@@ -1,0 +1,49 @@
+
+ .game {
+display: flex;
+flex-direction: row;
+
+ }  
+    
+    div#dice {
+    width:25vh;
+    height:25vh;
+    background-size: contain;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    background-repeat: no-repeat;
+    }
+
+    div#diceII {
+        width:25vh;
+        height:25vh;
+        background-size: contain;
+        margin-left: 30vh;
+        margin-top: 10vh;
+        background-repeat: no-repeat;
+
+    }
+
+    button {
+        margin-left: 46%;
+        margin-top: 5vh;
+    }
+
+    .side-1 {
+        background-image: url(./img/side1.png);
+    }
+    .side-2 {
+        background-image: url(./img/side2.png);
+    }
+    .side-3 {
+        background-image: url(./img/side3.png);
+    }
+    .side-4 {
+        background-image: url(./img/side4.png);
+    }
+    .side-5 {
+        background-image: url(./img/side5.png);
+    }
+    .side-6 {
+        background-image: url(./img/side6.png);
+    }
